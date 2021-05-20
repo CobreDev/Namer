@@ -1,0 +1,9 @@
+Package: dev.cobre.namer
+Name: Namer
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Change the name at thhe top of Settings!
+Maintainer: CobreDev <cooper@cooperhull.com>
+Author: CobreDev <cooper@cooperhull.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)

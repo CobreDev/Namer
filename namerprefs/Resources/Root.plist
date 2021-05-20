@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>HBPackageNameHeaderCell</string>
+			<!-- <key>icon</key>
+			<string>Icon@3x.png</string> -->
+			<key>packageIdentifier</key>
+		    <string>dev.cobre.namer</string>
+			<key>packageNameOverride</key>
+			<string>Namer</string>
+			<key>titleColor</key>
+    		<string>#E5791A</string>
+    		<key>subtitleColor</key>
+			<string>#B85D00</string>
+		    <key>backgroundGradientColors</key>
+		    <array>
+		        <string>#5E2E00</string>
+		        <string>#5E2E00</string>
+		    </array>
+		</dict>
+
+		<dict>
+		  <key>cell</key>
+		  <string>PSGroupCell</string>
+		  <key>footerText</key>
+		  <string>Relaunch Settings to apply changes</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>NAMSwitchWithInfoCell</string>
+			<key>infoTitle</key>
+			<string>Enable Tweak</string>
+			<key>infoMessage</key>
+			<string>Use this switch to enable or disable the tweak entirely</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>dev.cobre.namerprefs</string>
+			<key>key</key>
+			<string>NAMEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>dev.cobre.namerprefs/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>Name</string>
+			<key>defaults</key>
+			<string>dev.cobre.namerprefs</string>
+			<key>key</key>
+			<string>customText</string>
+			<key>label</key>
+			<string>Custom Text:</string>
+			<key>placeholder</key>
+			<string>Name</string>
+			<key>keyboard</key>
+			<string>nil</string>
+			<key>PostNotification</key>
+			<string>dev.cobre.namerprefs/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+		  <key>cell</key>
+		  <string>PSGroupCell</string>
+		  <key>footerText</key>
+		  <string></string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Relaunch Settings</string>
+			<key>cellClass</key>
+     		<string>HBTintedTableCell</string>
+			<key>action</key>
+			<string>confirmation</string>
+		</dict>
+
+		<!-- Standard size: -->
+		<dict>
+		    <key>cellClass</key>
+		    <string>HBTwitterCell</string>
+		    <key>label</key>
+		    <string>CobreDev</string>
+		    <key>user</key>
+		    <string>CobreDev</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Namer</string>
+</dict>
+</plist>
