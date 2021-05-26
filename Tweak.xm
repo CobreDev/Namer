@@ -3,9 +3,16 @@
 @import Foundation;
 @import UIKit;
 
+@interface PSUIAppleAccountCell : UITableViewCell
+@property (nonatomic, retain) UIImageView *imageView;
+@end
+
 #define PLIST_PATH @"/var/mobile/Library/Preferences/dev.cobre.namerprefs.plist"
 
 static NSString *customText = @"Name";
+
+UIImage *pfpImage;
+UIImageView* pfpImageView;
 
 BOOL NAMEnabled;
 
@@ -18,6 +25,14 @@ BOOL NAMEnabled;
     [origVar setText:customText];
     return origVar;
 }
+
+// -(void)layoutSubviews{
+-(void)setCenter{
+
+	%orig;
+    NSLog(@"NAMERTWEAK: setCenter");
+}
+
 %end
 
 %end

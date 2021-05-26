@@ -10,5 +10,6 @@ NamerPrefs_PRIVATE_FRAMEWORKS = Preferences
 NamerPrefs_INSTALL_PATH = /Library/PreferenceBundles
 NamerPrefs_CFLAGS = -fobjc-arc
 NamerPrefs_EXTRA_FRAMEWORKS += Cephei CepheiPrefs
+NamerPrefs_LIBRARIES = gcuniversal
 
 include $(THEOS_MAKE_PATH)/bundle.mk

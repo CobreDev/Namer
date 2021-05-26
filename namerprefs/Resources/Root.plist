@@ -74,6 +74,54 @@
 			<string>dev.cobre.namerprefs/ReloadPrefs</string>
 		</dict>
 
+
+		<dict>
+		  <key>cell</key>
+		  <string>PSGroupCell</string>
+		  <key>footerText</key>
+		  <string></string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>NAMSwitchWithInfoCell</string>
+			<key>infoTitle</key>
+			<string>Custom Image</string>
+			<key>infoMessage</key>
+			<string>Use this switch to enable or disable a custom profile image</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>dev.cobre.namerprefs</string>
+			<key>key</key>
+			<string>NAMcustomPic</string>
+			<key>label</key>
+			<string>Custom Image</string>
+			<key>PostNotification</key>
+			<string>dev.cobre.namerprefs/ReloadPrefs</string>
+		</dict>
+
+	    <dict>
+	        <key>cell</key>
+	        <string>PSLinkCell</string>
+	        <key>cellClass</key>
+	        <string>GcImagePickerCell</string>
+	        <key>label</key>
+	        <string>Your Image Label</string>
+	        <key>defaults</key>
+	        <string>dev.cobre.namerprefs</string>
+	        <key>key</key>
+	        <string>YourImage</string>
+	        <key>usesPhotos</key>
+	        <true/>
+	        <key>usesVideos</key>
+	        <false/>
+	        <key>videoQuality</key>
+	        <integer>1</integer>
+	    </dict>
+
 		<dict>
 		  <key>cell</key>
 		  <string>PSGroupCell</string>

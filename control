@@ -6,4 +6,4 @@ Description: Change the name at thhe top of Settings!
 Maintainer: CobreDev <cooper@cooperhull.com>
 Author: CobreDev <cooper@cooperhull.com>
 Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.mrgcgamer.libgcuniversal

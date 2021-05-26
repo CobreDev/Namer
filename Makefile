@@ -1,5 +1,6 @@
-THEOS_DEVICE_IP=192.168.1.47
+THEOS_DEVICE_IP=hackingdevice
 
+AARCHS = arm64 arm64e
 TARGET := iphone:clang:latest:7.0
 INSTALL_TARGET_PROCESSES = Preferences
 
@@ -11,6 +12,7 @@ TWEAK_NAME = Namer
 Namer_FILES = Tweak.xm
 Namer_CFLAGS = -fobjc-arc
 Namer_EXTRA_FRAMEWORKS += Cephei
+Namer_LIBRARIES = gcuniversal
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 SUBPROJECTS += namerprefs
