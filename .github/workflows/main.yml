@@ -1,4 +1,4 @@
-- name: Install Theos
+name: Install Theos
   # You may pin to the exact commit or the version.
   # uses: Randomblock1/theos-action@f2a016bf639dafceaa6be4f00fd002d9b8d8a9c7
   uses: Randomblock1/theos-action@v1
